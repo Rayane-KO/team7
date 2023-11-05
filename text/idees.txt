@@ -1,0 +1,3 @@
+< // winkelmand bij hover = pop up winkelmand en beneden knopje met meer details => bij klik stuurt naar andere pagina
+
+// breadcramps
