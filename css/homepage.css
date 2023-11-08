@@ -1,0 +1,11 @@
+.navbar{
+    box-shadow: 0px 0px 5px gray;
+}
+
+.navbar-search{
+    padding-left: 85%;
+}
+
+.navbar-info{
+    padding-right: 2%;
+}
