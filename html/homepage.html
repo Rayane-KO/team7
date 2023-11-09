@@ -5,33 +5,60 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="C:\Users\rayan\OneDrive\Bureau\3BA-CS\WebTech\team7\css\homepage.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="C:\Users\rayan\Desktop\3BA-CS\WebTech\team7\css\homepage.css">
+  <script src="https://kit.fontawesome.com/b4f6eba574.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
+<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
   <!-- Brand/logo -->
   <a class="navbar-brand" href="homepage.html">
-    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ6HE70zEKEZM_B1muGcut3GUwIktup86XvsHQIm_0sVzzxZMeA" alt="logo" style="width:40px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1yMS3OmB9dzcAgQO0tmxXnl9wWraP8ylU1aNlGqX6sAJvf1K8" alt="logo" style="width:30px;">
   </a>
 
-  <a class="navbar-search navbar-info" href="homepage.html">
-    <img src="data:image/png;base64,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" alt="logo" style="width:25px;">
-  </a>
+  <ul id="navbar-info">
+    <li><a href="homepage.html">
+      <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #0a5200;"></i>
+      </a>
+    </li>
 
-  <a class="navbar-info" href="homepage.html">
-    <img src="https://www.iconsdb.com/icons/preview/green/shopping-basket-xxl.png" alt="logo" style="width:25px;">
-  </a>
+    <li><a href="homepage.html">
+      <i class="fa-solid fa-circle-user fa-xl" style="color: #0a5200;"></i>
+      </a>
+    </li>
 
-  <a class="navbar-info" href="homepage.html">
-    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzgwB5xVKb_9i-5G3BFJjfSgxEHG-Ct308du1my_VSg5DBnlqo" alt="logo" style="width:40px;">
-  </a>
+    <li><a href="homepage.html">
+      <i class="fa-solid fa-basket-shopping fa-xl" style="color: #0a5200;"></i>  
+      </a>
+    </li>
+  </ul>
 </nav>
 
 
-<div class="container-fluid">
-  <h3>FarmHub</h3>
-  <p>Assalamu3alaykum ya shabab</p>
+<div class="main">
+  <h1>Fresh products near you</h1>
+  <button>DISCOVER</button>
+</div>
+
+<h3>From the farm straight to your plate.</h3>
+
+<div class="shopping">
+  <a class="shop-nav "href="shop.html">
+    <img src="https://images.rtl.fr/~c/770v513/rtl/www/1071023-legumes.jpg" alt="">
+    <p>Produced by local farmers</p>
+    <p>Shop now</p>
+  </a>
+  <a class="shop-nav "href="shop.html">
+    <img src="https://img.freepik.com/photos-gratuite/legumes-automne-planche-bois-au-milieu_23-2147714800.jpg?w=1380&t=st=1699556004~exp=1699556604~hmac=7d1cdb06373859ab063ff7df8231ce223844bd2ce0b9d5af752185c6b21d04e0" alt="">
+    <p>Seasonal boxes</p>
+    <p>Shop now</p>
+  </a>
+  <a class="shop-nav "href="shop.html">
+    <img src="https://www.nextfarming.com/fileadmin/_processed_/6/f/csm_mann_vor_landschaft_aafb808e51.jpg" alt="">
+    <p>Discover your next farmer</p>
+    <p>Shop now</p>
+  </a>
 </div>
 
 </body>
