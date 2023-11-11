@@ -1,22 +1,157 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>FarmHub│Shop</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FarmHub/Discover</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:\Users\Hamza Dardari\Desktop\VUB\3BA\Web technologie\team7\css\shop.css">
+    <script src="https://kit.fontawesome.com/b4f6eba574.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="homepage.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1yMS3OmB9dzcAgQO0tmxXnl9wWraP8ylU1aNlGqX6sAJvf1K8" alt="logo" style="width:30px;">
+        </a>
+        <ul id="navbar-info">
+            <li><a href="homepage.html">
+                <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #0a5200;"></i>
+                </a>
+            </li>
+            <li><a href="account.html">
+                <i class="fa-solid fa-circle-user fa-xl" style="color: #0a5200;"></i>
+                </a>
+            </li>
+            <li><a href="cart.html">
+                <i class="fa-solid fa-basket-shopping fa-xl" style="color: #0a5200;"></i>  
+                </a>
+            </li>
+        </ul>
+    </nav> 
+    <div>
+        <h1>Behind Navbar</h1>
+        <p>^</p>
+
         
-        <script src="" async defer></script>
-    </body>
+        
+
+    </div>
+
+    <div class="title">
+        <h1>Discover</h1>
+    </div>
+    
+    <div class="container">
+        <div class="filter">
+            <h2>Filter</h2>
+            <div class="category">
+                <input type="radio" id="fruits" name="category" checked>
+                <label for="fruits">Fruits</label>
+        
+                <input type="radio" id="vegetables" name="category">
+                <label for="vegetables">Vegetables</label>
+        
+                <input type="radio" id="animalProducts" name="category">
+                <label for="animalProducts">Animal Products</label>
+            </div>
+            <h3>Season</h3>
+            <select class="season-dropdown">
+                <option value="fall">Fall</option>
+                <option value="spring">Spring</option>
+                <option value="winter">Winter</option>
+                <option value="summer">Summer</option>
+            </select>
+        </div>
+        <div class="content">
+            <!-- Content goes here -->
+            <div class="product">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/001/308/017/small_2x/the-word-vegetables-surrounded-be-vegetables.jpg" alt="Product 1">
+                <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+            </div>
+            <!-- Repeat for other products -->
+            <div class="product">
+                <img src="https://previews.123rf.com/images/cooperr007/cooperr0071507/cooperr007150700582/42590141-isolated-image-of-fruits-in-the-form-of-the-word-fruit.jpg" alt="Product 2">
+               <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+            </div>
+            <!-- Repeat for other products -->
+            <div class="product">
+                <img src="https://previews.123rf.com/images/cooperr007/cooperr0071507/cooperr007150700582/42590141-isolated-image-of-fruits-in-the-form-of-the-word-fruit.jpg" alt="Product 3">
+               <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+            </div>
+            <!-- Repeat for other products -->
+            <div class="product">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/001/308/017/small_2x/the-word-vegetables-surrounded-be-vegetables.jpg" alt="Product 1">
+               <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+            </div>
+            <!-- Repeat for other products -->
+            <div class="product">
+                <img src="https://previews.123rf.com/images/cooperr007/cooperr0071507/cooperr007150700582/42590141-isolated-image-of-fruits-in-the-form-of-the-word-fruit.jpg" alt="Product 2">
+               <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+            </div>
+            <!-- Repeat for other products -->
+            <div class="product">
+                <img src="https://previews.123rf.com/images/cooperr007/cooperr0071507/cooperr007150700582/42590141-isolated-image-of-fruits-in-the-form-of-the-word-fruit.jpg" alt="Product 3">
+               <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+            </div>            
+            <!-- Add more products as needed -->
+            <div class="product">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/001/308/017/small_2x/the-word-vegetables-surrounded-be-vegetables.jpg" alt="Product 1">
+               <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+                
+            </div>
+            <!-- Repeat for other products -->
+            <div class="product">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/001/308/017/small_2x/the-word-vegetables-surrounded-be-vegetables.jpg" alt="Product 2">
+               <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+            </div>
+            <!-- Repeat for other products -->
+            <div class="product">
+                <img src="https://previews.123rf.com/images/cooperr007/cooperr0071507/cooperr007150700582/42590141-isolated-image-of-fruits-in-the-form-of-the-word-fruit.jpg" alt="Product 3">
+               <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+            </div>
+
+            <div class="product">
+                <img src="https://previews.123rf.com/images/cooperr007/cooperr0071507/cooperr007150700582/42590141-isolated-image-of-fruits-in-the-form-of-the-word-fruit.jpg" alt="Product 1">
+               <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+            </div>
+            <!-- Repeat for other products -->
+            <div class="product">
+                <img src="https://previews.123rf.com/images/cooperr007/cooperr0071507/cooperr007150700582/42590141-isolated-image-of-fruits-in-the-form-of-the-word-fruit.jpg" alt="Product 2">
+               <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+            </div>
+            <!-- Repeat for other products -->
+            <div class="product">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/001/308/017/small_2x/the-word-vegetables-surrounded-be-vegetables.jpg" alt="Product 3">
+               <p><strong>Product</strong></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas explicabo facilis voluptatibus.</p>
+                <a href="cart.html"></a><button  class="shop-now">  add to cart  </button>
+        </div>
+    </div>
+    
+</body>
 </html>
