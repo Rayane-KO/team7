@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -10,13 +6,20 @@
         <title>FarmHub│Account</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="C:\Users\rayan\Desktop\3BA-CS\WebTech\team7\css\account.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
+        <div class="sign-up">
+            <form method="post">
+                <h2>Sign Up</h2>
+                <div><input type="text" name="name" id="fname" placeholder="First Name" required></div>
+                <div><input type="text" name="name" id="lname" placeholder="Last Name" required></div>
+                <div><input type="email" name="email" id="email" placeholder="E-mail" required></div>
+                <div><input type="password" name="password" id="password" placeholder="Password" required></div>
+                <div><input type="password" name="c-password" id="c-password" placeholder="Confirm Password" required></div>
+                <div><button type="submit">Sign Up</button></div>
+                <div><p>Already have an account? <a href="">Login Here</a></p></div>
+           </form>
+        </div>
     </body>
 </html>
